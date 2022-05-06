@@ -73,7 +73,8 @@ Cross-validation for internal factors:
 Cross-validation analysis for external factors:
 ![](cross-validationexternal.jpg)
 Decesion tree Compare:
-![](decisiontreeinternal.jpg =296x250)         
+![](decisiontreeinternal.jpg) 
+
 ![](decisiontreeexternal.jpg)
 
 we can see the two type of decision tree, due to the fact that number of internal feature is much less than external, the maximum depth of external is deeer than internal.
