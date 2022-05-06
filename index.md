@@ -1,4 +1,7 @@
 # DS320 Final project
+
+###Project ID: B8
+
 ### Team Members:
 
 Kebei Yu
@@ -6,6 +9,9 @@ Kebei Yu
 Yulun Wu
 
 Chaolong Shi
+
+#### Link to resources(datasets, codes, PowerPoint, report)
+https://github.com/oca510/ds320FinalProject/
 
 ### Background
 There are hundreds of different national and international university ranking systems like US News and QS. Ranking of universities are affected by a large number of factors. And it is a difficult and controversial practice ranking universities. For both universities and future students, the world rank of top 200 is an important benchmark. 
@@ -118,5 +124,3 @@ Highest for Mixed: 0.94(random forest)
 ### Conclusion
 Based on the findings, results and limitations we talked about above. We need more data to help us with training modules.
 
-#### Link to resources(datasets, codes, PowerPoint, report)
-https://github.com/oca510/ds320FinalProject/
