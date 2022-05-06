@@ -118,5 +118,5 @@ Highest for Mixed: 0.94(random forest)
 ### Conclusion
 Based on the findings, results and limitations we talked about above. We need more data to help us with training modules.
 
-#### Link to resources(datasets, codes, PowerPoint, reports) \
+#### Link to resources(datasets, codes, PowerPoint, report)
 https://github.com/oca510/ds320FinalProject/
