@@ -67,10 +67,9 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
   Cross-validation for internal factors:
   ![](cross-validationinternal.jpg)
   Cross-validation analysis for external factors:
-  ![](correlationexternal.jpg)
+  ![](cross-validationexterna.jpg)
   Decesion tree Compare:
-  ![](decisiontreeinternal.jpg)
-  ![](decesiontreeexternal.jpg)
+  ![](decisiontreeinternal.jpg)         ![](decesiontreeexternal.jpg)
   Cross-validation analysis for mixed factors:
   ![](cross-validationmix.jpg)
   
