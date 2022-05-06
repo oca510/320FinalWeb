@@ -70,19 +70,18 @@ Cross-validation analysis for external factors:
 ![](cross-validationexternal.jpg)
 Decesion tree Compare:
 ![](decisiontreeinternal.jpg)         
-
-![](decesiontreeexternal.jpg)
+![](decisiontreeexternal.jpg)
 Cross-validation analysis for mixed factors:
 ![](cross-validationmix.jpg)
   
 Compare correlation:
 ![](correlationinternal.jpg)
 ![](correlationexternal.jpg)
-As the color becomes deeper, more relationship between feature and label
+***As the color becomes deeper, more relationship between feature and label***
   
-Accuracy for each type of factor:
-Highest for Internal: 0.94（random forest）
-Highest for External: 0.69(random forest & logistic regression
+Accuracy for each type of factor:\
+Highest for Internal: 0.94（random forest）\
+Highest for External: 0.69(random forest & logistic regression\
 Highest for Mixed: 0.94(random forest)
 
 ## Part3: Findings, Results and Limitations
