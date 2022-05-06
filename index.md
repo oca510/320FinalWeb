@@ -57,13 +57,15 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
 
 
 ## Part2: Model Analysis
-* Introduction: Introduction: we use four machine learning models for each group of factors we extracted-internal, external and mixed. Next, using cross-validation to select which model is best for each group of factors. Finally, gathering the accuracy for each group of factors to decide which group is best for us to predict.
-* Machine learning for each group of factors:
-Split function (80% for training & 20% for testing)
-Decision Tree
-Logistic regression
-Random forest
-Knn
+We use four machine learning models for each group of factors we extracted-internal, external and mixed. Next, we employ cross-validation to select which model is best for each group of factors. Finally, we gather the accuracy for each group of factors to decide which group is the best for us to predict.
+
+Machine learning for each group of factors:
+* Split function (80% for training & 20% for testing)
+* Decision Tree
+* Logistic regression
+* Random forest
+* Knn
+
 Cross-validation for internal factors:
 ![](cross-validationinternal.jpg)
 Cross-validation analysis for external factors:
@@ -71,10 +73,14 @@ Cross-validation analysis for external factors:
 Decesion tree Compare:
 ![](decisiontreeinternal.jpg)         
 ![](decisiontreeexternal.jpg)
+
+we can see the two type of decision tree, due to the fact that number of internal feature is much less than external, the maximum depth of external is deeer than internal.
+
 Cross-validation analysis for mixed factors:
 ![](cross-validationmix.jpg)
   
-Compare correlation:
+
+Compare correlation between internal and external:
 ![](correlationinternal.jpg)
 ![](correlationexternal.jpg)
 ***As the color becomes deeper, more relationship between feature and label***
