@@ -59,29 +59,31 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
 ## Part2: Model Analysis
 * Introduction: Introduction: we use four machine learning models for each group of factors we extracted-internal, external and mixed. Next, using cross-validation to select which model is best for each group of factors. Finally, gathering the accuracy for each group of factors to decide which group is best for us to predict.
 * Machine learning for each group of factors:
-  Split function (80% for training & 20% for testing)
-  Decision Tree
-  Logistic regression
-  Random forest
-  Knn
-  Cross-validation for internal factors:
-  ![](cross-validationinternal.jpg)
-  Cross-validation analysis for external factors:
-  ![](cross-validationexterna.jpg)
-  Decesion tree Compare:
-  ![](decisiontreeinternal.jpg)         ![](decesiontreeexternal.jpg)
-  Cross-validation analysis for mixed factors:
-  ![](cross-validationmix.jpg)
+Split function (80% for training & 20% for testing)
+Decision Tree
+Logistic regression
+Random forest
+Knn
+Cross-validation for internal factors:
+![](cross-validationinternal.jpg)
+Cross-validation analysis for external factors:
+![](cross-validationexternal.jpg)
+Decesion tree Compare:
+![](decisiontreeinternal.jpg)         
+
+![](decesiontreeexternal.jpg)
+Cross-validation analysis for mixed factors:
+![](cross-validationmix.jpg)
   
-  compare correlation:
-  ![](correlationinternal.jpg)
-  ![](correlationexternal.jpg)
-  As the color becomes deeper, more relationship between feature and label
+Compare correlation:
+![](correlationinternal.jpg)
+![](correlationexternal.jpg)
+As the color becomes deeper, more relationship between feature and label
   
-  Accuracy for each type of factor:
-  Highest for Internal: 0.94（random forest）
-  Highest for External: 0.69(random forest & logistic regression
-  Highest for Mixed: 0.94(random forest)
+Accuracy for each type of factor:
+Highest for Internal: 0.94（random forest）
+Highest for External: 0.69(random forest & logistic regression
+Highest for Mixed: 0.94(random forest)
 
 ## Part3: Findings, Results and Limitations
 ### Findings
