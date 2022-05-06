@@ -57,7 +57,7 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
 
 
 ## Part2: Model Analysis
-* Introduction: Introduction: we use four machine learning models for each group of factors we extracted-internal, external and mixed. Next, using cross-validation to    select which model is best for each group of factors. Finally, gathering the accuracy for each group of factors to decide which group is best for us to predict.
+* Introduction: Introduction: we use four machine learning models for each group of factors we extracted-internal, external and mixed. Next, using cross-validation to select which model is best for each group of factors. Finally, gathering the accuracy for each group of factors to decide which group is best for us to predict.
 * Machine learning for each group of factors:
   Split function (80% for training & 20% for testing)
   Decision Tree
@@ -65,18 +65,18 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
   Random forest
   Knn
   Cross-validation for internal factors:
-  ![](cross-validation for internal.jpg)
+  ![](correlationinternal.jpg)
   Cross-validation analysis for external factors:
-  ![](cross-validation for external.jpg)
+  ![](correlationexternal.jpg)
   Decesion tree Compare:
-  ![](decision tree for internal.jpg)
-  ![](decesion tree for external.jpg)
+  ![](decisiontreeinternal.jpg)
+  ![](decesiontreeexternal.jpg)
   Cross-validation analysis for mixed factors:
-  ![](cross-validation for mix.jpg)
+  ![](cross-validationmix.jpg)
   
   compare ofrrelation:
-  ![](correlation for internal.jpg)
-  ![](correlation for external.jpg)
+  ![](correlationinternal.jpg)
+  ![](correlationexternal.jpg)
   
   Accuracy for each type of factor:
   Highest for Internal: 0.94（random forest）
