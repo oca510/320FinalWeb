@@ -49,12 +49,14 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
 * Lower case for future matching
 * String revising : delete ‘county’, replace state full name to abbreviation
 * Filter year: use the latest info, only us universities
+![](String.jpg)
 
 ### Data Integraion
 * Merge university info to university rank
 * Merge education data to demographic data
 * Merge local demographic data to university rank(county level)
-
+Results:
+![](Results.jpg)
 
 ## Part2: Model Analysis
 We use four machine learning models for each group of factors we extracted-internal, external and mixed. Next, we employ cross-validation to select which model is best for each group of factors. Finally, we gather the accuracy for each group of factors to decide which group is the best for us to predict.
