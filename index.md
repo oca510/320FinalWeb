@@ -83,8 +83,8 @@ Cross-validation analysis for mixed factors:
   
 
 Compare correlation between internal and external:
-![](correlationinternal.jpg =296x250)
-![](correlationexternal.jpg =296x250)
+![](correlationinternal.jpg =250x250)
+![](correlationexternal.jpg =250x250)
 ***As the color becomes deeper, more relationship between feature and label***
   
 Accuracy for each type of factor:\
