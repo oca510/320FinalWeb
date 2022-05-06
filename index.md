@@ -65,18 +65,18 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
   Random forest
   Knn
   Cross-validation for internal factors:
-  ![alt text](cross-validation for internal)
+  ![](cross-validation for internal.jpg)
   Cross-validation analysis for external factors:
-  ![alt text](cross-validation for external)
+  ![](cross-validation for external.jpg)
   Decesion tree Compare:
-  ![alt text](decision tree for internal)
-  ![alt text](decesion tree for external)
+  ![](decision tree for internal.jpg)
+  ![](decesion tree for external.jpg)
   Cross-validation analysis for mixed factors:
-  ![alt text](cross-validation for mixed)
+  ![](cross-validation for mix.jpg)
   
   compare ofrrelation:
-  ![alt text](corelation for internal)
-  ![alt text](corelation tree for external)
+  ![](correlation for internal.jpg)
+  ![](correlation for external.jpg)
   
   Accuracy for each type of factor:
   Highest for Internal: 0.94（random forest）
