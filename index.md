@@ -65,7 +65,7 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
   Random forest
   Knn
   Cross-validation for internal factors:
-  ![](correlationinternal.jpg)
+  ![](cross-validationinternal.jpg)
   Cross-validation analysis for external factors:
   ![](correlationexternal.jpg)
   Decesion tree Compare:
@@ -74,9 +74,10 @@ Sources: Esri, TomTom, U.S. Department of Commerce, U.S. Census Bureau https://s
   Cross-validation analysis for mixed factors:
   ![](cross-validationmix.jpg)
   
-  compare ofrrelation:
+  compare correlation:
   ![](correlationinternal.jpg)
   ![](correlationexternal.jpg)
+  As the color becomes deeper, more relationship between feature and label
   
   Accuracy for each type of factor:
   Highest for Internal: 0.94（random forest）
